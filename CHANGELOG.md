@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/lemiliomoreno/ecs-apix-hands-on/compare/v1.2.0...v1.2.1) (2024-06-18)
+
+
+### Bug Fixes
+
+* typo in requirements ([3d6a28d](https://github.com/lemiliomoreno/ecs-apix-hands-on/commit/3d6a28df5c4e0df5c47a7b427f01175fa7ddfb57))
+
 # [1.2.0](https://github.com/lemiliomoreno/ecs-apix-hands-on/compare/v1.1.1...v1.2.0) (2024-06-18)
 
 
