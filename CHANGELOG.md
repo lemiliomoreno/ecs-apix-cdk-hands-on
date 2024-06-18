@@ -1,3 +1,10 @@
+## [1.2.2](https://github.com/lemiliomoreno/ecs-apix-hands-on/compare/v1.2.1...v1.2.2) (2024-06-18)
+
+
+### Bug Fixes
+
+* **deploy:** change to_string() method for unsafe_unwrap() in Secret instance ([41cd056](https://github.com/lemiliomoreno/ecs-apix-hands-on/commit/41cd056205734dc6660669a6d7c4bc2f0464e34c))
+
 ## [1.2.1](https://github.com/lemiliomoreno/ecs-apix-hands-on/compare/v1.2.0...v1.2.1) (2024-06-18)
 
 
