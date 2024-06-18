@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/lemiliomoreno/ecs-apix-hands-on/compare/v1.1.1...v1.2.0) (2024-06-18)
+
+
+### Features
+
+* add application code ([622f2b2](https://github.com/lemiliomoreno/ecs-apix-hands-on/commit/622f2b24263c2e855c3612b96f340ccfbd1e2152))
+
 ## [1.1.1](https://github.com/lemiliomoreno/ecs-apix-hands-on/compare/v1.1.0...v1.1.1) (2024-06-18)
 
 
