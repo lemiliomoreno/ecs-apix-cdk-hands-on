@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/lemiliomoreno/ecs-apix-hands-on/compare/v1.1.0...v1.1.1) (2024-06-18)
+
+
+### Bug Fixes
+
+* add vpc in database_cluster instance ([1e0ca9c](https://github.com/lemiliomoreno/ecs-apix-hands-on/commit/1e0ca9cffa5a1016f291938a7ff74eeef225d869))
+
 # [1.1.0](https://github.com/lemiliomoreno/ecs-apix-hands-on/compare/v1.0.1...v1.1.0) (2024-06-18)
 
 
