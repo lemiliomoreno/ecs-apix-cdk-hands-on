@@ -1,3 +1,10 @@
+## [1.2.4](https://github.com/lemiliomoreno/ecs-apix-hands-on/compare/v1.2.3...v1.2.4) (2024-06-18)
+
+
+### Bug Fixes
+
+* **app:** typo in gunicorn execution command ([d2e663b](https://github.com/lemiliomoreno/ecs-apix-hands-on/commit/d2e663b0f14aa7362de4bb999f3d23a730c50133))
+
 ## [1.2.3](https://github.com/lemiliomoreno/ecs-apix-hands-on/compare/v1.2.2...v1.2.3) (2024-06-18)
 
 
