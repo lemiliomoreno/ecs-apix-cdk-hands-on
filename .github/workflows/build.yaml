@@ -7,6 +7,38 @@ on:
       - published
 
 jobs:
+  DeployInfrastructure:
+    runs-on: ubuntu-latest
+    environment: Dev
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Setup NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: CDK Deployment
+        run: |
+          npm install -g aws-cdk
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          cdk deploy --require-approval never
+
   # BuildDockerImage:
   #   runs-on: ubuntu-latest
   #   environment: Dev
@@ -41,35 +73,3 @@ jobs:
   #       run: |
   #         docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG .
   #         docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
-
-  DeployInfrastructure:
-    runs-on: ubuntu-latest
-    environment: Dev
-
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Configure AWS Credentials
-        uses: aws-actions/configure-aws-credentials@v4
-        with:
-          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          aws-region: ${{ secrets.AWS_DEFAULT_REGION }}
-
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
-
-      - name: Setup NodeJS
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: CDK Deployment
-        runs: |
-          npm install -g aws-cdk
-          pip install --upgrade pip
-          pip install -r requirements.txt
-          cdk deploy --require-approval never
