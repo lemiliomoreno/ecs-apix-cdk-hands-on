@@ -43,5 +43,6 @@ class EcsApixHandsOnStack(Stack):
             writer=rds.ClusterInstance.serverless_v2("writer1"),
             security_groups=[
                 db_sg,
-            ]
+            ],
+            vpc=vpc,
         )
