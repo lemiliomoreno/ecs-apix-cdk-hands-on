@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/lemiliomoreno/ecs-apix-hands-on/compare/v1.0.1...v1.1.0) (2024-06-18)
+
+
+### Features
+
+* add database deployment ([f493a29](https://github.com/lemiliomoreno/ecs-apix-hands-on/commit/f493a29abb4139067eb93b60e1ae662697971c99))
+
 ## [1.0.1](https://github.com/lemiliomoreno/ecs-apix-hands-on/compare/v1.0.0...v1.0.1) (2024-06-18)
 
 
