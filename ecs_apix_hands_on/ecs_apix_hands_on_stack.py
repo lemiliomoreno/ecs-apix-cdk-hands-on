@@ -95,11 +95,11 @@ class EcsApixHandsOnStack(Stack):
                     "DB_NAME": "postgres",
                     "DB_USERNAME": secret.secret_value_from_json(
                         "username"
-                    ).to_string(),
+                    ).unsafe_unwrap(),
                     "DB_PASSWORD": secret.secret_value_from_json(
                         "password"
-                    ).to_string(),
-                    "DB_HOST": secret.secret_value_from_json("host").to_string(),
+                    ).unsafe_unwrap(),
+                    "DB_HOST": secret.secret_value_from_json("host").unsafe_unwrap(),
                 },
             ),
         )
