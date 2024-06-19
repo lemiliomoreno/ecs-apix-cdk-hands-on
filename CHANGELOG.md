@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/lemiliomoreno/ecs-apix-cdk-hands-on/compare/v1.2.4...v1.3.0) (2024-06-19)
+
+
+### Features
+
+* change readme to demonstrate pipeline execution ([6d61f93](https://github.com/lemiliomoreno/ecs-apix-cdk-hands-on/commit/6d61f9336243127dd7656b3cfebec1c47967b275))
+
 ## [1.2.4](https://github.com/lemiliomoreno/ecs-apix-hands-on/compare/v1.2.3...v1.2.4) (2024-06-18)
 
 
