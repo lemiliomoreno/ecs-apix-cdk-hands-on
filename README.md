@@ -1,5 +1,5 @@
 
-# Welcome to your CDK Python project!
+# AWS ECS Apix CDK Hands-On
 
 This is a blank project for CDK development with Python.
 
