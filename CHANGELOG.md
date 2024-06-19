@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/lemiliomoreno/ecs-apix-cdk-hands-on/compare/v1.3.0...v1.4.0) (2024-06-19)
+
+
+### Features
+
+* destroy resources ([e2b5242](https://github.com/lemiliomoreno/ecs-apix-cdk-hands-on/commit/e2b5242dbd9866c5a6573ea6cff278771ed4a30d))
+
 # [1.3.0](https://github.com/lemiliomoreno/ecs-apix-cdk-hands-on/compare/v1.2.4...v1.3.0) (2024-06-19)
 
 
